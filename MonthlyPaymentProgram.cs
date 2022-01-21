@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace MonthlyPayment
 {
     internal class MonthlyPaymentProgram
-    {
-       
-         
+    {  
             public static void CalculateMonthlyPayment()
             {
             Console.WriteLine("Enter principal loan ::");
@@ -18,8 +16,6 @@ namespace MonthlyPayment
             int Year = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter rate of interest ::");
             int Rate = Convert.ToInt32(Console.ReadLine());
-
-
             double principal = Payment, numberOfYears = Year, rateOfInterest = Rate;
                 double payment;
                 double rate = rateOfInterest / 1200;
